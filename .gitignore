@@ -1,0 +1,37 @@
+# Python
+backend/.venv/
+backend/data/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/public/molstar/
+
+# Env
+.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debugging / temporary artifacts
+chrome.log
+analysis_dom.html
+analysis_dom2.html
+dom.html
+analysis_id.txt
+protein.png
+protein2.png
+shot.png
+struct_test.cif
+test.pdf
+*.log
