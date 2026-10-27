@@ -215,7 +215,7 @@ export function Analysis() {
               {result.neighborhood.heavy_atom_contacts.rows.map((row, index) => (
                 <tr
                   key={`ha-${index}`}
-                  className="cursor-pointer border-t border-slate-100 hover:bg-slate-50"
+                  className="cursor-pointer border-t border-slate-100 hover:bg-green-500"
                   onClick={() => setFocusTarget(toRef(row))}
                 >
                   <td className="py-2 font-mono">
